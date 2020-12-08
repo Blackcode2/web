@@ -1,26 +1,26 @@
 <!doctype html>
 <html>
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-D0ZFX3W85B"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-D0ZFX3W85B');
-</script>
 	<title>대학교 - 고려대학교</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script src="colors.js"></script>
 </head>
 <body>
 	<h1><a href="index.html">대학교</a></h1>
-	<ol>
-		<li><a href="1.html">한동대학교</a></li>
-		<li><a href="2.html">국민대학교</a></li>
-		<li><a href="3.html">고려대학교</a></li>
-	</ol>
-	<h2>고려대학교</h2>
-	<p>서울에 위치한 4년제 대학교이며 대한민국 최고대학중 한곳이다.</p>
+	<input id="night_day" type="button" value="night" onclick="
+	nightDayHandler(this);
+	">
+	<div id="grid">
+		<ol>
+			<li><a href="1.html">한동대학교</a></li>
+			<li><a href="2.html">국민대학교</a></li>
+			<li><a href="3.html">고려대학교</a></li>
+		</ol>
+		<div id="article">
+			<h2>고려대학교</h2>
+			<p>서울에 위치한 4년제 대학교이며 대한민국 최고대학중 한곳이다.</p> 
+		</div>
+	</div>
 </body>
 </html>
